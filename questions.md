@@ -1,2 +1,2 @@
-#### 1. What is the difference between private, internal, public and external functions?   
+### 1. What is the difference between private, internal, public and external functions?   
 Private can only be used internally within the current contract, and cannot be called by derived contracts inheritance; internal can be called by the current contract and derived contracts; public public can be called by both inside and outside the contract and derived contracts; external is only provided for external calls and cannot be called from within the contract. All interface functions must be declared external.
