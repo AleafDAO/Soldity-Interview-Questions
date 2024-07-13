@@ -59,3 +59,5 @@ in this code:
    - Offers an added layer of security by checking for existing contracts before deployment.
 In summary, while CREATE is straightforward, CREATE2 provides predictable addresses. The latter is particularly useful when you need to know the contract address before deployment. 🚀
 
+### 6. Before EIP-1559, how was the cost of Ethereum transactions calculated?
+Before EIP-1559, the cost of Ethereum transactions was determined by miners through an auction mechanism. Miners would select the transaction with the highest bid and include it in the next block. The cost of a transaction is determined by two factors: Gas Price and Gas Limit. Gas Price is a unit of measurement in the Ethereum network that measures the complexity of a transaction. Gas Limit refers to the maximum amount of Gas that a transaction can use. The cost of a transaction is equal to Gas Price multiplied by Gas Limit. Therefore, the cost of a transaction depends on the values ​​of Gas Price and Gas Limit, which are set by the sender of the transaction.
